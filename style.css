@@ -1,0 +1,40 @@
+.container {
+    position: relative;
+    height: 300px;
+    background-color: #f1f1f1;
+  }
+  
+  .box {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .absolute {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #333;
+  }
+  
+  .fixed {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #f44336;
+  }
+  
+  .relative {
+    position: relative;
+    background-color: #2196f3;
+  }
+  
+  .static {
+    position: static;
+    background-color: #4caf50;
+  }
+  
